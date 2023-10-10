@@ -1,5 +1,6 @@
 package OOP_2;
 
+
 import java.util.*;
 
 public class Market implements MarketBehaviour, QueueBehaviour{
@@ -52,6 +53,7 @@ public class Market implements MarketBehaviour, QueueBehaviour{
         releaseFromMarket(releaseActors);
     }
 
+
     @Override
     public void releaseFromMarket(List<Actor> actors) {
         for (Actor actor : actors) {
@@ -67,3 +69,4 @@ public class Market implements MarketBehaviour, QueueBehaviour{
         releaseFromQueue();
     }
 }
+

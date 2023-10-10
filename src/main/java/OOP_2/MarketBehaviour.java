@@ -1,5 +1,6 @@
 package OOP_2;
 
+
 import java.util.List;
 
 public interface MarketBehaviour {
@@ -7,4 +8,6 @@ public interface MarketBehaviour {
     void releaseFromMarket(List<Actor> actor);
     void update();
 
+
 }
+
