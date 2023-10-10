@@ -7,3 +7,4 @@ public interface QueueBehaviour {
     void releaseFromQueue();
 
 }
+
