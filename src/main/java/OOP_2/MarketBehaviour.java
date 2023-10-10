@@ -8,3 +8,4 @@ public interface MarketBehaviour {
     void update();
 
 }
+
