@@ -1,5 +1,6 @@
 package OOP_2;
 
+
 public abstract class Actor implements ActorBehaviour{
     protected String name;
     protected boolean isMakeOrder;
@@ -9,7 +10,9 @@ public abstract class Actor implements ActorBehaviour{
         this.name = name;
     }
 
+
     abstract public void setName(String name);
     abstract String getName();
 
 }
+

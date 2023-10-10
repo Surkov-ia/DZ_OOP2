@@ -1,5 +1,6 @@
 package OOP_2;
 
+
 public class Human  extends Actor {
 
 //    @Override
@@ -25,10 +26,12 @@ public class Human  extends Actor {
         return name;
     }
 
+
     @Override
     public void setMakeOrder(boolean makeOrder) {
         super.isMakeOrder = makeOrder;
     }
+
 
     @Override
     public void setTakeOrder(boolean takenOrder) {
@@ -39,15 +42,18 @@ public class Human  extends Actor {
         return this;
     }
 
+
     @Override
     public boolean isMakeOrder() {
         return isMakeOrder;
     }
 
+
     @Override
     public boolean isTakeOrder() {
         return isTakeOrder;
     }
+
     @Override
     public void setName(String name) {
         super.name = name;
@@ -55,3 +61,4 @@ public class Human  extends Actor {
 
 
 }
+

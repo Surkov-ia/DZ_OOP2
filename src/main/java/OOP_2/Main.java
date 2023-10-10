@@ -1,5 +1,6 @@
 package OOP_2;
 
+
 /**
  * Реализовать класс Market и все методы, которые он обязан реализовывать.
  * Методы из интерфейса QueueBehaviour, имитируют работу очереди,
@@ -7,6 +8,7 @@ package OOP_2;
  * метод update – обновляет состояние магазина (принимает и отдаёт заказы)
  *
  */
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("<".repeat(15)+"METRO"+">".repeat(15));
@@ -26,3 +28,4 @@ public class Main {
         System.out.println("<".repeat(15)+"METRO"+">".repeat(15));
     }
 }
+

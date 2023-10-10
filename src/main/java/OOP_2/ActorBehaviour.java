@@ -1,5 +1,6 @@
 package OOP_2;
 
+
 public interface ActorBehaviour {
     void setMakeOrder(boolean make);
     void setTakeOrder(boolean take);
@@ -7,4 +8,6 @@ public interface ActorBehaviour {
     boolean isTakeOrder();
     Actor getActor();
 
+
 }
+
