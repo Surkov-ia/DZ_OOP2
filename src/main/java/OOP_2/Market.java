@@ -3,7 +3,6 @@ package OOP_2;
 
 import java.util.*;
 
-
 public class Market implements MarketBehaviour, QueueBehaviour{
     List <Actor> orders = new LinkedList<>();
     Queue <Actor> que = new ArrayDeque<>();
